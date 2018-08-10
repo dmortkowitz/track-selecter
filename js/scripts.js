@@ -33,11 +33,11 @@ $(document).ready(function(){
     }
   });
 
-  $("sub2B").submit(function(event){
+  $("#sub2B").submit(function(event){
     event.preventDefault();
     var thirdChoice = $("input:radio[name=answerS3]:checked").val();
     if (thirdChoice === "sub3C") {
-      $("#sub3C").toggle();
+      $("#sub3C").show();
     }
     else if (thirdChoice === "sub3D"){
       $("#sub3D").show();
@@ -46,24 +46,24 @@ $(document).ready(function(){
       $("#IDK1").show();
     }
   });
-  $("sub3A").submit(function(event){
+  $("#sub3A").submit(function(event){
     event.preventDefault();
-    var thirdChoice = $("input:radio[name=answerS3]:checked").val();
-    if (thirdChoice === "sub4A") {
-      $("#cSharp").toggle();
+    var fourthChoice = $("input:radio[name=answerS4]:checked").val();
+    if (fourthChoice === "sub4A") {
+      $("#cSharp").show();
     }
-    else if (thirdChoice === "sub4B"){
+    else if (fourthChoice === "sub4B"){
       $("#rails").show();
     }
-    else if (thirdChoice === "IDK1"){
+    else if (fourthChoice === "IDK1"){
       $("#IDK1").show();
     }
   });
-  $("sub3B").submit(function(event){
+  $("#sub3B").submit(function(event){
     event.preventDefault();
-    var thirdChoice = $("input:radio[name=answerS3]:checked").val();
+    var thirdChoice = $("input:radio[name=answerS5]:checked").val();
     if (thirdChoice === "subC") {
-      $("#rails").toggle();4
+      $("#rails").show();
     }
     else if (thirdChoice === "sub4D"){
       $("#react").show();
@@ -72,11 +72,11 @@ $(document).ready(function(){
       $("#IDK1").show();
     }
   });
-  $("sub3C").submit(function(event){
+  $("#sub3C").submit(function(event){
     event.preventDefault();
-    var thirdChoice = $("input:radio[name=answerS3]:checked").val();
+    var thirdChoice = $("input:radio[name=answerS6]:checked").val();
     if (thirdChoice === "sub4E") {
-      $("#react").toggle();
+      $("#react").show();
     }
     else if (thirdChoice === "sub4F"){
       $("#rails").show();
@@ -85,11 +85,11 @@ $(document).ready(function(){
       $("#IDK1").show();
     }
   });
-  $("sub3D").submit(function(event){
+  $("#sub3D").submit(function(event){
     event.preventDefault();
-    var thirdChoice = $("input:radio[name=answerS3]:checked").val();
+    var thirdChoice = $("input:radio[name=answerS7]:checked").val();
     if (thirdChoice === "sub4G") {
-      $("#rails").toggle();
+      $("#rails").show();
     }
     else if (thirdChoice === "sub4H"){
       $("#cSharp").show();
