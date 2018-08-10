@@ -1,4 +1,4 @@
-Track Selector
+Track Suggester
 
 A website to help select your education path.
 

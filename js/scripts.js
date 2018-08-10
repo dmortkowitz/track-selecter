@@ -8,10 +8,10 @@ $(document).ready(function(){
     event.preventDefault();
     var firstChoice = $("input:radio[name=answerS1]:checked").val();
     if (firstChoice === "sub1A") {
-      $("div#sub2A").show();
+      $("form#questionS1").show();
     }
     else if (firstChoice === "sub1B"){
-      $("div#sub2B").show();
+      $("form#questionS2").show();
     }
     else if (firstChoice === "IDK1"){
       $(".IDK").show();
@@ -28,7 +28,7 @@ $(document).ready(function(){
     else if (secondChoice === "small2B"){
       $("div#sub2B").show();
     }
-    else if (secondChoice === "idk1"){
+    else if (secondChoice === "IDK1"){
       $(".IDK").show();
     }
   });
@@ -42,7 +42,7 @@ $(document).ready(function(){
     else if (thirdChoice === "small2B"){
       $("div#sub2D").show();
     }
-    else if (thirdChoice === "idk1"){
+    else if (thirdChoice === "IDK1"){
       $(".IDK").show();
     }
   });
