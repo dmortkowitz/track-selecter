@@ -50,10 +50,10 @@ $(document).ready(function(){
     event.preventDefault();
     var fourthChoice = $("input:radio[name=answerS4]:checked").val();
     if (fourthChoice === "sub4A") {
-      $("#cSharp").show();
+      $(".cSharp").show();
     }
     else if (fourthChoice === "sub4B"){
-      $("#rails").show();
+      $(".rails").show();
     }
     else if (fourthChoice === "IDK1"){
       $("#IDK1").show();
@@ -61,40 +61,40 @@ $(document).ready(function(){
   });
   $("#sub3B").submit(function(event){
     event.preventDefault();
-    var thirdChoice = $("input:radio[name=answerS5]:checked").val();
-    if (thirdChoice === "subC") {
-      $("#rails").show();
+    var fifthChoice = $("input:radio[name=answerS5]:checked").val();
+    if (fifthChoice === "subC") {
+      $(".rails").show();
     }
-    else if (thirdChoice === "sub4D"){
-      $("#react").show();
+    else if (fifthChoice === "sub4D"){
+      $(".react").show();
     }
-    else if (thirdChoice === "IDK1"){
+    else if (fifthChoice === "IDK1"){
       $("#IDK1").show();
     }
   });
   $("#sub3C").submit(function(event){
     event.preventDefault();
-    var thirdChoice = $("input:radio[name=answerS6]:checked").val();
-    if (thirdChoice === "sub4E") {
-      $("#react").show();
+    var sixthChoice = $("input:radio[name=answerS6]:checked").val();
+    if (sixthChoice === "sub4E") {
+      $(".react").show();
     }
-    else if (thirdChoice === "sub4F"){
-      $("#rails").show();
+    else if (sixthChoice === "sub4F"){
+      $(".rails").show();
     }
-    else if (thirdChoice === "IDK1"){
+    else if (sixthChoice === "IDK1"){
       $("#IDK1").show();
     }
   });
   $("#sub3D").submit(function(event){
     event.preventDefault();
-    var thirdChoice = $("input:radio[name=answerS7]:checked").val();
-    if (thirdChoice === "sub4G") {
-      $("#rails").show();
+    var seventhChoice = $("input:radio[name=answerS7]:checked").val();
+    if (seventhChoice === "sub4G") {
+      $(".rails").show();
     }
-    else if (thirdChoice === "sub4H"){
-      $("#cSharp").show();
+    else if (seventhChoice === "sub4H"){
+      $(".cSharp").show();
     }
-    else if (thirdChoice === "IDK1"){
+    else if (seventhChoice === "IDK1"){
       $("#IDK1").show();
     }
   });
