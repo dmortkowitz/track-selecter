@@ -1,5 +1,5 @@
-#radioStart{
-  display:none;
+#Main1{
+  display: none;
 }
 .clickable {
   cursor: pointer;
@@ -8,4 +8,45 @@
 
 .clickable:hover {
  text-decoration: underline;
+}
+.container{
+  background= #dee5ef;
+}
+.jumbotron{
+  background: black;
+  color: white;
+}
+
+#sub2A{
+  display: none;
+}
+
+#sub2B{
+  display: none;
+}
+
+#sub3A{
+  display: none;
+}
+
+#sub3B{
+  display: none;
+}
+#sub3C{
+  display: none;
+}
+#sub3D{display: none;
+}
+
+.rails {
+  display: none;
+}
+.react{
+  display:none
+}
+.cSharp{
+  display:none;
+}
+.IDK{
+  display:none;
 }
