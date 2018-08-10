@@ -23,28 +23,79 @@ $(document).ready(function(){
     event.preventDefault();
     var secondChoice = $("input:radio[name=answerS2]:checked").val();
     if (secondChoice === "sub3A") {
-      $("sub3A").show();
+      $("#sub3A").show();
     }
     else if (secondChoice === "sub3B"){
-      $("sub3B").show();
+      $("#sub3B").show();
     }
-    else if (secondChoice === "IDK"){
-      $(".IDK").show();
+    else if (secondChoice === "IDK1"){
+      $("#IDK1").show();
     }
   });
 
-  $("").submit(function(event){
+  $("sub2B").submit(function(event){
     event.preventDefault();
     var thirdChoice = $("input:radio[name=answerS3]:checked").val();
-    if (thirdChoice === "small2A") {
-      $("div#sub2C").toggle();
+    if (thirdChoice === "sub3C") {
+      $("#sub3C").toggle();
     }
-    else if (thirdChoice === "small2B"){
-      $("div#sub2D").show();
+    else if (thirdChoice === "sub3D"){
+      $("#sub3D").show();
     }
     else if (thirdChoice === "IDK1"){
-      $(".IDK").show();
+      $("#IDK1").show();
     }
   });
-
+  $("sub3A").submit(function(event){
+    event.preventDefault();
+    var thirdChoice = $("input:radio[name=answerS3]:checked").val();
+    if (thirdChoice === "sub4A") {
+      $("#cSharp").toggle();
+    }
+    else if (thirdChoice === "sub4B"){
+      $("#rails").show();
+    }
+    else if (thirdChoice === "IDK1"){
+      $("#IDK1").show();
+    }
+  });
+  $("sub3B").submit(function(event){
+    event.preventDefault();
+    var thirdChoice = $("input:radio[name=answerS3]:checked").val();
+    if (thirdChoice === "subC") {
+      $("#rails").toggle();4
+    }
+    else if (thirdChoice === "sub4D"){
+      $("#react").show();
+    }
+    else if (thirdChoice === "IDK1"){
+      $("#IDK1").show();
+    }
+  });
+  $("sub3C").submit(function(event){
+    event.preventDefault();
+    var thirdChoice = $("input:radio[name=answerS3]:checked").val();
+    if (thirdChoice === "sub4E") {
+      $("#react").toggle();
+    }
+    else if (thirdChoice === "sub4F"){
+      $("#rails").show();
+    }
+    else if (thirdChoice === "IDK1"){
+      $("#IDK1").show();
+    }
+  });
+  $("sub3D").submit(function(event){
+    event.preventDefault();
+    var thirdChoice = $("input:radio[name=answerS3]:checked").val();
+    if (thirdChoice === "sub4G") {
+      $("#rails").toggle();
+    }
+    else if (thirdChoice === "sub4H"){
+      $("#cSharp").show();
+    }
+    else if (thirdChoice === "IDK1"){
+      $("#IDK1").show();
+    }
+  });
 });
