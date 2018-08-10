@@ -37,7 +37,7 @@ $(document).ready(function(){
     event.preventDefault();
     var thirdChoice = $("input:radio[name=answerS3]:checked").val();
     if (thirdChoice === "small2A") {
-      $("div#sub2C").show();
+      $("div#sub2C").toggle();
     }
     else if (thirdChoice === "small2B"){
       $("div#sub2D").show();
