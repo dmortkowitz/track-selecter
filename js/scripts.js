@@ -62,7 +62,7 @@ $(document).ready(function(){
   $("#sub3B").submit(function(event){
     event.preventDefault();
     var fifthChoice = $("input:radio[name=answerS5]:checked").val();
-    if (fifthChoice === "subC") {
+    if (fifthChoice === "sub4C") {
       $(".rails").show();
     }
     else if (fifthChoice === "sub4D"){

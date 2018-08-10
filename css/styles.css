@@ -5,6 +5,12 @@
   cursor: pointer;
   color: #0088cc;
 }
+#sidebar{
+  float: left;
+  background: black;
+  color: white;
+  height: 1500px;
+}
 
 .clickable:hover {
  text-decoration: underline;
@@ -16,8 +22,16 @@
   background: black;
   color: white;
 }
-
-
+body {
+  background: #d3d9e2;
+}
+body h1{
+  font-style:italic;
+  background:
+}
+.jumbotron h2{
+  text-align: center;
+}
 
 #sub2A{
   display: none;
