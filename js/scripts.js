@@ -4,36 +4,36 @@ $(document).ready(function(){
     event.preventDefault();
   });
 
-  $("form#questionS1").submit(function(event){
+  $("#Main1").submit(function(event){
     event.preventDefault();
     var firstChoice = $("input:radio[name=answerS1]:checked").val();
-    if (firstChoice === "sub1A") {
-      $("form#questionS1").show();
+    if (firstChoice === "sub2A") {
+      $("#sub2A").show();
     }
-    else if (firstChoice === "sub1B"){
-      $("form#questionS2").show();
+    else if (firstChoice === "sub2B"){
+      $("#sub2B").show();
     }
     else if (firstChoice === "IDK1"){
-      $(".IDK").show();
+      $("#IDK1").show();
     }
   });
 
 
-  $("form#questionS2").submit(function(event){
+  $("#sub2A").submit(function(event){
     event.preventDefault();
     var secondChoice = $("input:radio[name=answerS2]:checked").val();
-    if (secondChoice === "small2A") {
-      $("div#sub2A").show();
+    if (secondChoice === "sub3A") {
+      $("sub3A").show();
     }
-    else if (secondChoice === "small2B"){
-      $("div#sub2B").show();
+    else if (secondChoice === "sub3B"){
+      $("sub3B").show();
     }
-    else if (secondChoice === "IDK1"){
+    else if (secondChoice === "IDK"){
       $(".IDK").show();
     }
   });
 
-  $("form#questionS3").submit(function(event){
+  $("").submit(function(event){
     event.preventDefault();
     var thirdChoice = $("input:radio[name=answerS3]:checked").val();
     if (thirdChoice === "small2A") {

@@ -17,6 +17,8 @@
   color: white;
 }
 
+
+
 #sub2A{
   display: none;
 }
@@ -24,18 +26,17 @@
 #sub2B{
   display: none;
 }
-
 #sub3A{
   display: none;
 }
-
 #sub3B{
   display: none;
 }
 #sub3C{
   display: none;
 }
-#sub3D{display: none;
+#sub3D{
+  display: none;
 }
 
 .rails {
@@ -47,6 +48,6 @@
 .cSharp{
   display:none;
 }
-.IDK1{
+#IDK1{
   display:none;
 }
